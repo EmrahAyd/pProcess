@@ -65,9 +65,9 @@
               <td class="text-left views-field views-field-nid number-column"><?php echo $cek['urunkod'];?></td>
               <td class="text-left "><?php echo $cek['namei'];?></td>
               <td class="text-left ">uretici</td>
-              <td class="text-left "><?php echo $cek['maliyet'];?></td>
+              <td class="text-left "><?php echo $cek['aciklama'];?></td>
+              <td class="text-left"> <?php echo $cek['maliyet'];?></td>
               <td class="text-left  number-column"><?php echo $cek['miat'];?></td>
-              <td class="text-left"><?php echo $cek['aciklama'];?> </td>
               <td style="width: 5px;">Teslim microtime</td>
               <td style="width: 5px;"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
               <td style="width: 5px;"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
@@ -182,6 +182,7 @@
 
   th {
     color: black;
+    border-top: 8px solid #9ea7af;
 
     background: whitesmoke;
     border-bottom: 4px solid #9ea7af;
