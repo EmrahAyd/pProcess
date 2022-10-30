@@ -1,8 +1,8 @@
 <div class="area"></div>
   <nav class="main-menu">
-    <ul>
+    <ul style=" margin-top: 10 px;">
       <li>
-        <a href="#">
+        <a href="/">
           <i class="fa fa-home fa-2x"></i>
           <span class="nav-text">
             Dashboard
@@ -29,14 +29,16 @@
         </a>
 
       </li>
-      <!-- <li>
-        <a href="#">
-          <i class="fa fa-bar-chart-o fa-2x"></i>
+      <li class="has-subnav">
+        <a href="teklifac.php">
+        <i class="fa fa-hand-o-up" aria-hidden="true"></i>
           <span class="nav-text">
-            Graphs and Statistics
+          Teklif Aç
           </span>
         </a>
-      </li> -->
+
+      </li>
+
       <!-- <li>
         <a href="#">
           <i class="fa fa-font fa-2x"></i>

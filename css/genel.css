@@ -21,8 +21,8 @@ overflow:visible;
 }
 
 .main-menu {
-background:#212121;
-border-right:1px solid #e5e5e5;
+background:#f3f3f3;
+border-right:1px solid #5a5a5a;
 position:absolute;
 top:0;
 bottom:0;
@@ -130,7 +130,4 @@ height: 100%;
 
 
 /* navbar */
-/* table */
-.rkucuk{
-  width: 100px;
-}
+/* searchbox */
